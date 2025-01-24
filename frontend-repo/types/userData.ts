@@ -1,0 +1,10 @@
+export interface UserData {
+    email: string;
+    firstName: string;
+    lastName: string;
+    gender: "male" | "female" | "other"; 
+    password: string;
+    phoneNumber: string;
+    uid: string;
+  }
+  
